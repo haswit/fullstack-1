@@ -1,0 +1,91 @@
+
+body{
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: rgba(5, 1, 22, 0.856);
+    min-height: 10vh;
+}
+
+p{
+    width: 700px;
+    color: aqua;
+}
+
+img{
+    width: 700px;
+}
+
+
+footer{
+    background-color: aqua;
+    padding: 15px;
+}
+
+
+button{
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+div#button_div{            
+}
+
+h1, h3, h2, h4, h5, h6{
+    color: rgb(106, 106, 245);
+}
+
+
+ul{
+    display: flex;
+}
+
+
+li{
+    color: aliceblue;
+    margin: 20px;
+    list-style-type: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+li a{
+    color: rgb(217, 95, 2);
+    text-decoration: none;
+}
+
+li:hover{
+    background-color: aliceblue;
+    color: black;
+}
+
+
+
+input{
+
+    padding: 10px;
+}
+
+
+label{
+    color: white;
+}
+
+footer{
+    margin-top: 25%;
+    width: 80vw;
+}
+
+
+form{
+    width: 350px;
+    padding: 4%;
+    background-color: rgba(255, 255, 255, 0.33);
+    border-radius: 5%;
+    box-shadow: 5px 5px 5px rgb(0, 213, 255);
+    
+}
+
+form input{
+    width: 95%;
+}
