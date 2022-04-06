@@ -1,0 +1,43 @@
+
+        /*
+        1. using tag name   
+        button{
+
+        }
+
+
+        2. using class name
+        
+        .my-button{
+
+        }
+
+
+
+        3. usging id
+
+        #button1{
+
+        }
+
+
+        */
+
+
+        .my-blue-button{
+            background-color: blue;
+            color: white;
+            padding: 15px 30px;
+        }
+
+        .my-black-button{
+            background-color: rgb(3, 3, 19);
+            color: white;
+            padding: 15px 30px;
+        }
+
+
+        #button1{
+            box-shadow: 10px 10px 5px gray;
+            margin: 20px;
+        }
