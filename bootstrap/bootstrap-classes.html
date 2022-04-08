@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Webpage</title>
+
+            <!-- Font Awesome -->
+            <link
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+            rel="stylesheet"
+            />
+            <!-- Google Fonts -->
+            <link
+            href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+            rel="stylesheet"
+            />
+            <!-- MDB -->
+            <link
+            href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.11.0/mdb.min.css"
+            rel="stylesheet"
+            />
+
+            <style>
+                form{
+                    width: 400px;
+                }
+            </style>
+    </head>
+    <body  class="bg-dark">
+
+        
+        <div class="container bg-light"   style="min-height: 100vh;">
+                
+
+        <h3 class="text-center" >1.Form</h3>
+        
+        
+        <form class="card p-4 mx-auto bg-info"  >
+            <input type="text" class="form-control" placeholder="Enter name">  <br>
+
+            <input type="email" class="form-control" placeholder="Enter email">  <br>
+
+            <input type="tel" class="form-control" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" placeholder="Enter phone">  <br>
+
+            <input type="date" class="form-control"> <br>
+            
+            <input type="time" class="form-control">  <br>
+            
+            <input type="number" class="form-control" placeholder="Enter count">  <br>
+            
+            <input type="password" class="form-control" placeholder="Enter password">  <br>
+            
+
+            <input type="text" list="mycities" class="form-control" placeholder="Enter city">
+            
+            <datalist id="mycities">
+                <option value="Hyderabad">
+                <option value="Mumbai">
+            </datalist>
+
+
+
+            <br>
+
+            <select class="form-select">
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+            </select>
+
+            <br>
+            <label>Enter Message</label>
+            <textarea class="form-control"></textarea>
+            <br>
+            
+            
+            <button
+            class="btn btn-white"
+            type="submit">Submit</button>
+
+
+
+        </form>
+
+
+
+    <br><hr><br>
+
+        <h3>1.Table</h3>
+
+        </div>
+
+
+
+    </body>
+</html>

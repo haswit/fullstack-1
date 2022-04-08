@@ -1,0 +1,26 @@
+1. primary > blue 
+2. dark > black 
+3. danger > red 
+4. info > light blue 
+5. warning > yellow 
+6. light > light gray 
+7. success > green
+   
+
+general usecase          bootstrap class
+-----------------------------------------
+1. background-color     bg-dark
+2. text-color           text-dark
+3. padding              p-4  (pl-4,  pr-4,  px-4 | pt-4  pb-4  py-4)  (p1-p4)
+4. margin               m-4  (ml-4,  mr-4,  mx-4 | mt-4, mb-4, my-4)  (m1-m4)
+5. shadow               shadow
+6. responsive space     container
+7. card                 card    (roounded corners, shadow, bg-white)
+
+
+
+elements               bootstrap class
+-----------------------------------------
+1. input, textarea      form-control 
+2. select               form-select
+3. buttom               btn btn-primary  (btn-sm, btn-lg)  (btn-outline-primary) (btn-rouned)
