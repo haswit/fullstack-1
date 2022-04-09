@@ -24,3 +24,4 @@ elements               bootstrap class
 1. input, textarea      form-control 
 2. select               form-select
 3. buttom               btn btn-primary  (btn-sm, btn-lg)  (btn-outline-primary) (btn-rouned)
+4. table                table table-dark table-hover table-striped table-bordered
