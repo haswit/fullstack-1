@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        
+        <link rel="stylesheet" href="">
+
+
+        <!-- 1st factor
+                using meta viewport -->
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+
+        <!-- 2nd factor
+            using width and height in % -->
+
+    
+        <!-- 3rd factor
+            using media qeury -->
+
+        <style>
+
+            
+            .box{
+                width: 40%;
+                height: 200px;
+                background-color: red;
+                margin: 40px;
+            }
+
+
+            
+            @media screen and (max-width: 780px) {
+                .box{
+                    width: 90%;
+                    height: 400px;
+                    background-color: blue;
+                    margin: 20px;
+                }
+            }
+            @media screen and (max-width: 480px) {
+                .box{
+                    width: 90%;
+                    height: 400px;
+                    background-color: green;
+                    margin: 20px;
+                }
+            }
+
+            
+
+
+        </style>
+    </head>
+    <body>
+        
+        <script src="" async defer></script>
+
+
+
+        <div style="display: flex;flex-wrap: wrap;">
+
+            <div class="box">
+
+            </div>
+    
+            <div class="box">
+    
+            </div>
+
+            <div class="box">
+    
+            </div>
+
+            <div class="box">
+    
+            </div>
+
+
+        </div>
+    </body>
+</html>

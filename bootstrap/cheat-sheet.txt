@@ -29,9 +29,13 @@ elements               bootstrap class
 
 layout                  bootstrap class
 --------------------------------------------
-1. get items in             d-flex  (justify-content-between)
+1. get items in                     d-flex  (justify-content-between)
     single line             
 
-2. set width using          row, (col-3, col-9) 
+2. set width using                  row, (col-3, col-9) 
     row and column
+    for small screen                (col-3, col-9) 
+    for medius screen               (col-md-3, col-md-9) 
+    for large screen                (col-lg-3, col-lg-9) 
 
+3. get responsive padding           container
