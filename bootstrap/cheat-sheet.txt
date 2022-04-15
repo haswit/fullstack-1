@@ -17,8 +17,6 @@ general usecase          bootstrap class
 6. responsive space     container
 7. card                 card    (roounded corners, shadow, bg-white)
 
-
-
 elements               bootstrap class
 -----------------------------------------
 1. input, textarea      form-control 
